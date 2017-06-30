@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd flex
+./autogen.sh
+./configure
+make
+cd ..
+make LEX=flex/src/flex
